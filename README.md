@@ -1,4 +1,4 @@
-# SirWindfield Tap
+# SirWindfield's Homebrew Tap
 
 ## How do I install these formulae?
 
@@ -9,3 +9,6 @@ Or `brew tap sirwindfield/tap` and then `brew install <formula>`.
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+
+## Includes
