@@ -6,6 +6,7 @@ class GhLabelsCli < Formula
   license any_of: ["Apache-2.0", "MIT"]
   head "https://github.com/SirWindfield/gh-labels-cli.git"
 
+  depends_on "openssl@1.1"
   depends_on "rust" => :build
 
   def install
