@@ -3,8 +3,8 @@ class GhLabelsCli < Formula
   homepage "https://github.com/SirWindfield/gh-labels-cli"
   url "https://github.com/SirWindfield/gh-labels-cli/archive/v0.1.1.tar.gz"
   sha256 "01eb373711c856259be812a06decd9d7bf81e38b97bc60a7e658106fcbcc8a5f"
-  head "https://github.com/SirWindfield/gh-labels-cli.git"
   license any_of: ["Apache-2.0", "MIT"]
+  head "https://github.com/SirWindfield/gh-labels-cli.git"
 
   depends_on "rust" => :build
 
