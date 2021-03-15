@@ -13,6 +13,6 @@ class GhLabelsCli < Formula
   end
 
   test do
-    system "#{bin}/gh-labels help"
+    system "#{bin}/gh-labels", "help"
   end
 end
