@@ -6,6 +6,11 @@ class GhLabelsCli < Formula
   license any_of: ["Apache-2.0", "MIT"]
   head "https://github.com/SirWindfield/gh-labels-cli.git"
 
+  bottle do
+    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/gh-labels-cli-0.1.8"
+    sha256 cellar: :any_skip_relocation, catalina: "6e87605c40151a213cf9646bcb41331ce64909df7783f9c381a2b696e48912fb"
+  end
+
   depends_on "rust" => :build
   depends_on :macos
 
