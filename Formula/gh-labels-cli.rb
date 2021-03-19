@@ -7,7 +7,8 @@ class GhLabelsCli < Formula
   head "https://github.com/SirWindfield/gh-labels-cli.git"
 
   depends_on "rust" => :build
-
+  depends_on :macos
+  
   def install
     system "cargo", "install", *std_cargo_args
   end
