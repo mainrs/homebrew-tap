@@ -13,6 +13,7 @@ class GhLabelsCli < Formula
 
   depends_on "rust" => :build
   depends_on :macos
+  uses_from_macos "zlib"
 
   def install
     system "cargo", "install", *std_cargo_args
