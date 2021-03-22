@@ -1,8 +1,8 @@
 class GhLabelsCli < Formula
   desc "CLI for managing labels in existing GitHub repositories"
   homepage "https://github.com/SirWindfield/gh-labels-cli"
-  url "https://github.com/SirWindfield/gh-labels-cli/archive/v0.1.8.tar.gz"
-  sha256 "856c0e24d4bcee82787a78d3504f1415acc1b9cdb54fcb6f47b2b731b005905f"
+  url "https://github.com/SirWindfield/gh-labels-cli/archive/v0.1.9.tar.gz"
+  sha256 "8959ad4dbfbf121c648300a13996eceb3f5d5e30d192a9678477b5efb1cd00e1"
   license any_of: ["Apache-2.0", "MIT"]
   head "https://github.com/SirWindfield/gh-labels-cli.git"
 
