@@ -7,8 +7,9 @@ class GhLabelsCli < Formula
   head "https://github.com/SirWindfield/gh-labels-cli.git"
 
   bottle do
-    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/gh-labels-cli-0.1.8"
-    sha256 cellar: :any_skip_relocation, catalina: "6e87605c40151a213cf9646bcb41331ce64909df7783f9c381a2b696e48912fb"
+    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/gh-labels-cli-0.1.9"
+    sha256 cellar: :any_skip_relocation, catalina:     "5b7d49d7d943db37b31b3a08a7300c747f5c951302dc50405e11f5e6bb855904"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "ffbaefb83f965904a8899ef1e9410304ed0a7fd1550862e1d1018f2e847b0dba"
   end
 
   depends_on "rust" => :build
