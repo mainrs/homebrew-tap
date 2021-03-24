@@ -7,9 +7,9 @@ class GitCm < Formula
   head "https://github.com/SirWindfield/git-cm.git"
 
   bottle do
-    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/git-cm-0.2.0"
-    sha256 cellar: :any_skip_relocation, catalina:     "750b301e02b12cd4f1ac3887509229071f1849e41b300c45f66fc24d6f9a9a1b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "88607e204bfb6df655294c7e502500d5ec857cd29ee27f47624ad96d1d147735"
+    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/git-cm-0.2.2"
+    sha256 cellar: :any_skip_relocation, catalina:     "a097e47a3bb06031817d95da9da6f3a009e0e7f8c26c0626145fa17856807c31"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5f6cd186a1d0fbd02637280ea525229dc424cc5609d4e8ebe31d526579c81df2"
   end
 
   depends_on "rust" => :build
