@@ -1,8 +1,8 @@
 class GitCm < Formula
   desc "CLI for creating conventional-commits friendly commit messages"
   homepage "https://github.com/SirWindfield/git-cm"
-  url "https://github.com/SirWindfield/git-cm/archive/v0.2.1.tar.gz"
-  sha256 "fab35d7ebea3b32dfec3eae65b19108b1fd7d30eb5d93ab3245e795aa3aa5d79"
+  url "https://github.com/SirWindfield/git-cm/archive/v0.2.2.tar.gz"
+  sha256 "e585ada8584c52dbb759be8137367b6727ab0ceb8e304ff3f721c7668b7065a9"
   license any_of: ["Apache-2.0", "MIT"]
   head "https://github.com/SirWindfield/git-cm.git"
 
