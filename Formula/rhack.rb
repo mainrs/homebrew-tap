@@ -6,6 +6,12 @@ class Rhack < Formula
   license any_of: ["BSD-3-Clause"]
   head "https://github.com/nakabonne/rhack"
 
+  bottle do
+    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/rhack-0.1.0"
+    sha256 cellar: :any_skip_relocation, catalina:     "4eaa026a7153ed1c9762d4e56208a4981786edbe201c0a59c60326ae17ddff9a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "d6f4912da20ee173fcc5d6a46eb8e6c76ecf6d272c8dee3d2832effc1cc16ead"
+  end
+
   depends_on "rust" => :build
   uses_from_macos "zlib"
 
