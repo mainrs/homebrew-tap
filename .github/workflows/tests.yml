@@ -46,5 +46,7 @@ jobs:
           path: '*.bottle.*'
           
       - name: Apply pr-pull label
-        if: ${{ success() }} && matrix.os == 'ubuntu-latest'
-        run: 'gh pr edit ${{github.event.number}} -R SirWindfield/homebrew-tap --add-labels "pr-pull"'
+        if: success() && matrix.os == 'ubuntu-latest'
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
+          gh pr edit ${{github.event.number}} -R SirWindfield/homebrew-tap --add-label "pr-pull"
