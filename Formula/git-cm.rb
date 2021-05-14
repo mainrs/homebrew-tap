@@ -6,6 +6,12 @@ class GitCm < Formula
   license any_of: ["Apache-2.0", "MIT"]
   head "https://github.com/SirWindfield/git-cm.git"
 
+  bottle do
+    root_url "https://github.com/SirWindfield/homebrew-tap/releases/download/git-cm-0.2.3"
+    sha256 cellar: :any_skip_relocation, catalina:     "3ea7dc8c6cf9ea6dca469489e6b7708ac5833e08d25abb340650c3e85d589c6a"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "8c5fde22827f4616b8c872a70546342fae26eb78a77e58e488d266426cc86844"
+  end
+
   depends_on "rust" => :build
   uses_from_macos "zlib"
 
